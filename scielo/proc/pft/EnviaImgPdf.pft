@@ -1,0 +1,47 @@
+#
+'pwd'/
+'mkdir htdocs/img/revistas/',v1,'/',v2/
+'cd  htdocs/img/revistas/',v1,'/',v2/
+'lcd htdocs/img/revistas/',v1,'/',v2/
+'bin'/
+'mput *.???'/
+/* html */
+'mkdir html'/
+'cd html'/
+'lcd html'/
+'ascii'/
+'mput *.h??'/
+
+'cd  ../../../../../../'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/
+
+'pwd'/
+'mkdir bases/pdf/',v1,'/',v2/
+'cd bases/pdf/',v1,'/',v2/
+'lcd bases/pdf/',v1,'/',v2/
+'bin'/
+'mput *.p??'/
+'pwd'/
+'cd ../../../../'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/
+
+'pwd'/
+'mkdir bases/xml/',v1,'/',v2/
+'cd bases/xml/',v1,'/',v2/
+'lcd bases/xml/',v1,'/',v2/
+'bin'/
+'mput *.xml'/
+'pwd'/
+'cd ../../../../'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/
+'lcd ..'/

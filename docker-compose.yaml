@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  metodologia:
+    image: scielo/metodologia:centos7
+    environment:
+      INSTANCE_NAME: scielo_do
+      USER_SUPERVISOR: root
+      PASS_SUPERVISOR: toor
+      SITE_NAME: scielo.org.do
+      USER_FTP: scielo.do
+      PASSWD_FTP: blabla
+      USER_PASS: scielo123
+      GIT_BRANCH_NAME: scielo_ecu
+    volumes:
+      - ./scielo:/var/www/scielo
+      - ./apache:/var/www/apache
+      - /etc/localtime:/etc/localtime
+    ports:
+      - "8080:80"
+      - "2222:22"
+    restart: always
+

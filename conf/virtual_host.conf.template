@@ -1,0 +1,25 @@
+<VirtualHost *:80>
+    ServerName SITE_NAME
+    Alias /pdf/ /var/www/scielo/bases/pdf/
+    Alias /img/fbpe/ /var/www/scielo/htdocs/img/revistas/
+    DocumentRoot /var/www/scielo/htdocs
+    DirectoryIndex scielo.php index.php index.html
+    <Directory /var/www/scielo/htdocs>
+       Options FollowSymLinks MultiViews
+       Order deny,allow
+    </Directory>
+    <Directory /var/www/scielo/bases/pdf>
+        Options  FollowSymLinks MultiViews
+         AcceptPathInfo On
+        Order deny,allow
+    </Directory>
+    ScriptAlias /cgi-bin/ "/var/www/scielo/cgi-bin/"
+    <Directory "/var/www/scielo/cgi-bin">
+         AddDefaultCharset ISO-8859-1
+         AllowOverride None
+         Options None
+        Order deny,allow
+     </Directory>
+        ErrorLog "|/usr/sbin/rotatelogs -l /var/www/apache/%Y-%m-%d_USER_FTP-error.log 5M"
+        CustomLog "| /usr/sbin/rotatelogs -l /var/www/apache/%Y-%m-%d_USER_FTP.log 5M" combined
+</VirtualHost>

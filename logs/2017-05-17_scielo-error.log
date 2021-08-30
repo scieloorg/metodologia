@@ -1,0 +1,141 @@
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 75
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 126
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/var/lib/php/session/sess_6qecu9gq4pgmrpjlsehjlb8rn3, O_RDWR) failed: Permission denied (13) in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 5
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 21
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  check_login_url in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 23
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  lng in /var/www/scielo/htdocs/classRequestVars.php on line 50
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_DIVULGACAO in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  lng in /var/www/scielo/htdocs/classRequestVars.php on line 50
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  login_url in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  logout_url in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_cited_google in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_similar_in_google in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  google_last_process in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_TOP_TEN in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_ARTICLES_PER_MONTH in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_SERVICES_LOG in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_semantic_hl in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_journal in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_services in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_flacso_survey in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_piwik in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  script in /var/www/scielo/htdocs/classScielo.php on line 234
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined variable: commentCount in /var/www/scielo/htdocs/classScielo.php on line 242
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  lng in /var/www/scielo/htdocs/classScielo.php on line 243
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  tlng in /var/www/scielo/htdocs/classScielo.php on line 244
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 21
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 23
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 24
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined property: ScieloXMLTransformer::$error in /var/www/scielo/htdocs/class.XSLTransformer.php on line 201
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: open(/var/lib/php/session/sess_6qecu9gq4pgmrpjlsehjlb8rn3, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[Wed May 17 15:33:30 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 75
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 126
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/var/lib/php/session/sess_mplejgeg9nqvmkom226ihtdeo0, O_RDWR) failed: Permission denied (13) in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 5
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 21
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  check_login_url in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 23
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  lng in /var/www/scielo/htdocs/classRequestVars.php on line 50
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_DIVULGACAO in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  lng in /var/www/scielo/htdocs/classRequestVars.php on line 50
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  login_url in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  logout_url in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_cited_google in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_similar_in_google in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  google_last_process in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_TOP_TEN in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_ARTICLES_PER_MONTH in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_SERVICES_LOG in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_semantic_hl in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_journal in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_services in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_flacso_survey in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_piwik in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  script in /var/www/scielo/htdocs/classScielo.php on line 234
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined variable: commentCount in /var/www/scielo/htdocs/classScielo.php on line 242
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  lng in /var/www/scielo/htdocs/classScielo.php on line 243
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  tlng in /var/www/scielo/htdocs/classScielo.php on line 244
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 21
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 23
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 24
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined property: ScieloXMLTransformer::$error in /var/www/scielo/htdocs/class.XSLTransformer.php on line 201
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_AUTH_USERS_LOG in /var/www/scielo/htdocs/classDefFile.php on line 55
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: open(/var/lib/php/session/sess_mplejgeg9nqvmkom226ihtdeo0, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[Wed May 17 15:33:35 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 75, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 126, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/var/lib/php/session/sess_mplejgeg9nqvmkom226ihtdeo0, O_RDWR) failed: Permission denied (13) in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 5, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 21, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  check_login_url in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 23, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_DIVULGACAO in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  login_url in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  logout_url in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_cited_google in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_similar_in_google in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  google_last_process in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_TOP_TEN in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_ARTICLES_PER_MONTH in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_SERVICES_LOG in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_semantic_hl in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_journal in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_services in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_flacso_survey in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_piwik in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined variable: commentCount in /var/www/scielo/htdocs/classScielo.php on line 242, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:37 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  tlng in /var/www/scielo/htdocs/classScielo.php on line 244, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:38 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 21, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:38 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 23, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:38 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 24, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:38 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined property: ScieloXMLTransformer::$error in /var/www/scielo/htdocs/class.XSLTransformer.php on line 201, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:38 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_AUTH_USERS_LOG in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:38 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: open(/var/lib/php/session/sess_mplejgeg9nqvmkom226ihtdeo0, O_RDWR) failed: Permission denied (13) in Unknown on line 0, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:38 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0, referer: http://www.scielo.ecu/
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/class.ScieloTransformer.php on line 150, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 75, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  Call-time pass-by-reference has been deprecated in /var/www/scielo/htdocs/classes/class_xml_check/class_xml_check.php on line 126, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/var/lib/php/session/sess_mplejgeg9nqvmkom226ihtdeo0, O_RDWR) failed: Permission denied (13) in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 5, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 21, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  check_login_url in /var/www/scielo/htdocs/applications/scielo-org/sso/header.php on line 23, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_DIVULGACAO in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  login_url in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  logout_url in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_login in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_cited_google in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_similar_in_google in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  google_last_process in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_comments in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_TOP_TEN in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SCRIPT_ARTICLES_PER_MONTH in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_SERVICES_LOG in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_semantic_hl in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_journal in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_group_services in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_flacso_survey in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  show_piwik in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined variable: commentCount in /var/www/scielo/htdocs/classScielo.php on line 242, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  tlng in /var/www/scielo/htdocs/classScielo.php on line 244, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 21, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 23, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  SOCKET in /var/www/scielo/htdocs/class.XSLTransformer.php on line 24, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined property: ScieloXMLTransformer::$error in /var/www/scielo/htdocs/class.XSLTransformer.php on line 201, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Notice:  Undefined index:  ENABLE_AUTH_USERS_LOG in /var/www/scielo/htdocs/classDefFile.php on line 55, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: open(/var/lib/php/session/sess_mplejgeg9nqvmkom226ihtdeo0, O_RDWR) failed: Permission denied (13) in Unknown on line 0, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0, referer: http://www.scielo.ecu/scielo.php?script=sci_alphabetic&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Warning:  require_once(config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /var/www/scielo/htdocs/pressrelease/journalmanager.php on line 2, referer: http://www.scielo.ecu/scielo.php?script=sci_serial&pid=0100-879X&lng=en&nrm=iso
+[Wed May 17 15:33:39 2017] [error] [client 172.17.0.1] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/scielo/htdocs/pressrelease/journalmanager.php on line 2, referer: http://www.scielo.ecu/scielo.php?script=sci_serial&pid=0100-879X&lng=en&nrm=iso

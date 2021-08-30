@@ -1,0 +1,92 @@
+#!/bin/bash
+#Author: Rondineli Saad
+#Create in: 2015-10-15
+#Version: 0.2
+#Description:  compacta os logs do apache e move para pasta com seu respectivo ano/mes/nome da instancia e envia para o ftp.ratchet.scielo.org para processamento.
+
+DIR_SOURCE="/var/www/apache"
+DATE_YESTERDAY=`date -d "yesterday"  +"%Y-%m-%d"`
+MONTH_ATU=`date "+%B"`
+MONTH_LAST=`date '+%B' --date '1 month ago'`
+CURRENT_DAY=`date '+%d'`
+YEAR_ATU=`date "+%Y"`
+ARCH_TYPE="access error"
+INSTANCE_NAME="USER_FTP"
+
+################################################
+#ftp variables
+################################################
+HOST='ftp.ratchet.scielo.org'
+USER='USER_FTP'
+PASSWD='PASSWD_FTP'
+FILE_LOCAL=${DATE_YESTERDAY}_${INSTANCE_NAME}.log.gz
+FILE_REMOTE=${FILE_LOCAL}
+SUPERVISOR_USER=USER_SUPERVISOR
+SUPERVISOR_PASS=PASS_SUPERVISOR
+################################################
+# Esta instrução valida a se o arquivo de log do dia anterior existe, se sim é compactado
+cd $DIR_SOURCE
+for instance in $INSTANCE_NAME; do
+  if [ -e ${DATE_YESTERDAY}_${instance}.log ]
+    then
+      /bin/gzip ${DATE_YESTERDAY}_${instance}.log
+      /usr/bin/supervisorctl -u ${SUPERVISOR_USER} -p ${SUPERVISOR_PASS} restart httpd
+    else
+        echo "Arquivo do dia anterior nao existe!"
+    fi
+done
+sleep 1
+
+# Esta instrução valida a existência da pasta referente ao ano;
+if [ -d ${YEAR_ATU} ]
+  then
+    echo "Diretorio ja existe"
+else
+    mkdir ${YEAR_ATU}
+fi
+sleep 1
+
+# Esta instrução valida a existência da pasta referente ao mês;
+if [ -d ${YEAR_ATU}/${MONTH_ATU} ]
+  then
+    echo "Diretorio ja existe!"
+else
+    mkdir ${YEAR_ATU}/${MONTH_ATU}
+fi
+sleep 1
+
+# Esta instrução valida a existência da pasta referente ao nome da instância;
+for instance in $INSTANCE_NAME; do
+  if [ -d ${YEAR_ATU}/${MONTH_ATU}/${instance} ]
+    then
+      echo "Diretorio ja existe!"
+  else
+      mkdir -p ${YEAR_ATU}/${MONTH_ATU}/${instance}
+  fi
+done
+sleep 1
+
+#Esta instrucao envia o arquivo gerado para o servidor de ftp
+ftp -n -v $HOST <<END_SCRIPT
+quote USER $USER
+quote PASS $PASSWD
+binary
+put  ${FILE_LOCAL} ${FILE_REMOTE}
+quit
+END_SCRIPT
+
+# Como a compactação sempre ocorre no dia seguinte, este dia seguinte pode ser o dia primeiro do mês. Caso não valide se
+# o dia é o primeiro o arquivo será transferido para o mês atual e não o anterior. Após a validação o arquivo de log é removido
+# e o arquivo compactado é movido para a pasta com seu nome.
+for instance in $INSTANCE_NAME; do
+  if [ $CURRENT_DAY -eq 1 ];
+    then
+      mv ${DATE_YESTERDAY}_${instance}.log.gz ${YEAR_ATU}/${MONTH_LAST}/${instance}/
+    else
+      mv ${DATE_YESTERDAY}_${instance}.log.gz ${YEAR_ATU}/${MONTH_ATU}/${instance}/
+  fi
+done
+sleep 1
+
+
+

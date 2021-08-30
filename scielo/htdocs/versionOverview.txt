@@ -1,0 +1,285 @@
+v5.41
+Modifica fallback para requisições a documentos em idiomas indisponíveis (#710)
+
+v5.40
+Passa a exibir DOI de acordo com as diretivas atualizadas do Crossref (#708)
+
+v5.39
+Corrige bug no OAI-PMH (#690)
+Atualiza métricas do Google Scholar (#692)
+
+v5.38
+Corrige bug no OAI-PMH, Bug: https://github.com/scieloorg/Web/pull/686
+
+v5.37
+Inclusão de link de métricas do Google Scholar na home do artigo.
+Ajustes em protocolo OAI-PMH para inclusão de MetadataPrefix oai_dc_openaire
+Ajustes em processamento para inclusão de envio de bases para ArticleMeta proc/Envia2SciELOFast.bat
+Inclusão de metricas atualizadas do Google Scholar.
+
+v5.36.3
+Adaptação de integração com SCIMAGO de acordo com o funcionamento do novo site do SCIMAGO. Não é mais necessário executar processamentos de atualização de gráficos do SCIMAGO. Os ids de periódicos SciELO no SCIMAGO serão atualizados periódicamente em atualizações da metodologia SciELO.
+
+v5.36.2
+Correção de bugs relacionados a versão de CISIS e linguagem de formato para geração de PID's.
+
+v5.36.1
+Ajustes em documentação de instalação e atualização do site SciELO
+
+v5.36
+Ajustes do OAI-PMH metadataPrefix oai_dc (#164)
+Retorno de mensagem de erro 404 quando um documento não é encontrado na base do SciELO
+Inclusão de configuração do Piwik (apenas para SciELO BR)
+Atualização de PHPMailer
+Ajustes na apresentação do label de xref e de afiliação
+Ajustes no estilo do título dos resumos
+Ajustes na página de resumo: omitir o título do resumo (title=Abstract)
+Correção do código do idioma chinês (correto = zh, no lugar de ch)
+Atualização norma APA em como citar
+Corrige palavras (trocar "deste periódico" para "deste site") no texto de licença da home do site 
+Corrige apresentação da citação do "product" em artigos de revisão 
+Inibe apresentação de artigo quando data epub está no futuro
+Mudanças em IssueToc para maximizar indexação do Google Scholar
+Limpeza em arquivo de configuração scielo.def.php
+Vínculo com ferramenta analytics.scielo.org
+
+v5.35
+Inclusão de atributo setSampleRate para definir proporção de pageviews considerada para registro de logs no Google.
+Correção de ResumptionToken no protocolo OAI. O ResumptionToken mantém a navegação no protocolo para o metadataPrefix selecionado. (#159)
+Ajuste em regex de validação do resumptionToken no protocolo OAI (#161)
+
+v5.34
+Inclusão de indicadores bibliometricos do Google Scholar (#86)
+Apresentação de MathML na página do artigo e na página nova (#119)
+Reinclusão do article.js na página sci_issuetoc (#125)
+Correção de apresentação de artigos sem seção em sites que adotam scielo manager (#120)
+Apresentação de MathML na página do artigo e na página nova usando MathJax (#121)
+Ajuste na apresentação de carta com resposta (multilingue) (#133)
+
+v5.33
+[web]
+Na caixa de serviços do artigo, trazer o item indicadores expandido (#64)
+Apresentação de Link para PDF de material suplementar não disponivel no site SciELO (#66) 
+Inclusão de outros item na caixa de serviço: Mendley, ReadCube, etc (#79)
+Ajuste na apresentação de afiliações (#84, #91, #92)
+Troca de texto "Admitido" (#88)
+Apresentação de material suplementar que tem formato de vídeo (#104)
+Ajuste na apresentação da tabela de fascículos, caso que ahead of print aparece no ano 2013, no lugar de 2014. (#107)
+Redirecionamento do link para PDF/Chrome (#95)
+Correção de bug de abertura de PDF no Chrome
+
+v5.32
+[web]
+Corrigindo apresentação do badge do Altmetrics na página do artigo.
+
+v5.31
+[web]
+Incluindo gráfico de altmetrics para as páginas de artigos
+Página de apresentação do texto press release proveniente de XML
+
+v5.30
+[web]
+bug na página how to cite para ABNT e Vancouver quando existia supplemento (#54, #55)
+página nova do artigo quando afiliação é muito longa
+
+v5.29
+[web]
+Incluida tag PINGDOM_CODE no arquivo scielo.def.php para apresentação de javascript de monitoramento do site para clientes do PINGDOM
+
+v5.28 
+[web]
+pressrelease: Incorporado client de leitura de pressreleases do Journal Manager.
+fix the label of the link to new article page 
+at the new article page display a message indicating it is a trial version for new SciELO website
+
+v5.27
+[web]
+presentation of fulltext - adjustments
+[proc]
+scielo_crs - problem with some files which were in DOS format.
+
+v5.26
+[web]
+Fix sci_issues - missing supplements
+Fix presentation of fulltext for multilingue articles
+Fix presentation of new page of fulltext
+
+v5.25
+[web]
+Fix sci_issues - duplicated ahead of print
+Fix presentation of links to abstracts and texts at the abstract page
+Allow configure sorting of issues in sci_issues, according to publication date or sequential number (default)
+First version of new presentation of article. Currently it is accessible by a menu option in toolbox at the article page. Futurely it will be the article page.  
+
+v5.24
+[web]
+Including Journal Manager API Interface for press releases.
+Presentation of articles fulltext from XML files (PMC DTD 3.0) - translation/sub-article
+New status for journal history - journal is no longer open access
+Fix generation of PID for issue and article order which have respectively more than 3 and 4 digits
+
+[proc]
+Fix generation of PID for issue and article order which have respectively more than 3 and 4 digits
+
+v5.23
+[web]
+Including permalink at article toolbox.
+
+v5.22
+[web]
+Including uBio at toolbox. To enable the uBio link, configure show_ubio=1
+
+v5.21
+[web]
+How to cite using APA standard
+At article tool box, add link to other text version
+Display DOI found at bases/doi/doi, which was generated by xref_check
+FIXED Issue navegation: at the oldest issue, it is presenting erroneously a previous issue which does not exist
+
+[proc]
+xref_check (check if DOI is registered at CrossRef)
+proc_xref (query for references, including h records, and for all the collections)
+
+v5.20
+[web]
+FIXED a bug at issues navegation button (ticket 292)
+FIXED link to related article in press release, when this page is opened by a web page out of the scielo website (ticket 293)
+[proc]
+scielo_crs: do not generate doi for press release texts and the link has to go to the full text in the English version (294,295)
+
+v5.19
+[bases]
+Bases Cited Related Areasgeo Lattes para Bases Modelo
+Including LINDG4 model databases
+
+[web] 
+1) sci_serial. enhancement. present links to the other SciELO collections in which the journal is registered.
+2) sci_issuetoc. bug. Issuetoc page of a review issue, the previous button tried to show the ahead issue, that does not exist, so the previous button should show the last issue.
+3) sci_arttext. bug. Provisional texts: Link to PDF was presented twice.
+
+[proc]
+1) New GeraPadrao. check migration before deleting records in original db.
+2) GeraNewcodeAux. new. generate standard subjects list
+3) proc_doi. bug. fix a message, fix (v880 => v880^*), fix entities, generation of reports
+4) GeraIssue.bat. bug. press release problem
+5) jEval: different treatment for journal which publish one article per issue.
+
+----------------------------------------------
+
+v5.18.r3
+1) paragraphs.xis: Fix loading of paragraphs for translated texts, which has no references.
+2) CreateBaseP.bat: Fix mx calling
+3) CriaDiretorio.bat: create more than one level of folders
+4) GeraIssue.bat: include instructions to separate issues databases (v31n1) for CouchDB.
+
+
+v5.18 (time out problem)
+#275 DOI for references (proc and web)
+#276 jEval (journal evaluation to continue in collection)
+proc_lang fixed
+#281 presentation of doi as url http://dx.doi.org/ as recommed by CrossRef.
+#282 GeraPadrao gera��o de bases p
+
+v5.17
+Included the HTML META citation reference for Google Scholar.
+To enable this feature include the parameter show_meta_citation_reference=1 in the group [services] on scielo.def.php file
+
+v5.16.r
+Removed the citation reference
+
+v5.16
+Fix the URI of OAI full text
+Add templates files to send e-mail
+Add citation reference on SciELO sci_arttext.xis and sci_arttext.xsl 
+#269 Na p�gina do artigo no t�tulo do peri�dico colocar um link para sua home
+#270 Na home do peri�dico juntamente com os links das p�ginas secundarias, acrescentar um link para p�gina externa do peri�dico, quando houver.
+
+v5.15
+Alter the retorn of caracter set from UTF-8 to ISO-8859-1 on webservice. 
+Since Jan-27,2011, 4.1.0 is discontinued. 
+Removing root element from XML output 
+fix OAI problem when record is a press release article 
+
+v5.14
+Presentation of DOI which is provided by the journal editor
+
+v5.13
+Ajustes nos webservices de problemas gerados ap�s mudan�as realizadas na vers�o v5.12
+
+v5.12
+Ajustes nos webservices para entregar XML sem camada de WSDL.
+
+para pr�xima v5.11
+#252 Na home, o link para o portal (seja www.scielo.org, ou www.portal.revenf.bvsalud.org) tem que ser obtido do scielo.def.php
+
+v5.10
+Removido include para o arquivo cipar.xis no pressrelease.xis
+
+v5.9
+r4262 Removendo arquivos do MX. Os arquivos dever�o ser copiados do site de produtos da BIREME
+r4263 Removendo arquivo WXIS.EXE. Os arquivos dever�o ser copiados do site de produtos da BIREME
+#115  Corre��es aplicadas somente em SciELObr, interface em ingl�s.
+r4270 Faltante utf-8 enconding no webservices servi�o de new_titles
+r4271 Atualizado conforme solicitado no ticket #220 (closes #220)
+#220 Atualizado conforme solicitado.
+#r4275 Adicionado pastas wxis e gizmo no webservices faltantes na vers�o php5
+#251 Trocando a codifica��o do arquivo sci_isoref.xis de UTF-8 para ISO-8859-1. Problemas na exibi��o de caracteres acentuados.
+
+v5.8
+#240, corrigindo o t�tulo do artigo na tag meta/citation_title da p�gina sci_abstract
+
+v5.7-pr(Pre-Release)
+#237, tratando & na url de clinical trial
+
+v5.6-pr(Pre-Release)
+#231, corrigindo link de tradu��o autom�tica causado por mudan�a na caixa de servi�os #8
+
+v5.5-pr(Press-Release)
+#no_ticket, corrigindo #219, havia uma aspas a mais, prejudicando a apresenta��o apenas no IE
+
+v5.4-pr(Press-Release)
+#221 Adiconado tags meta para busca no Google Scholar 
+#223 Error do clinical trials
+
+v5.3-pr(Press-Release)
+#8 Melhorias na interface da caixa de servi�oes 
+#35 Adicionado Social Bookmarks na caixa de servi�oes 
+#51 Ajustado utf-8 como saida padr�o PHP 5 e Java
+
+v5.2-pr(Press-Release)
+#219, tradu��o para africaner e outros
+#217 scielo_crs se o documento j� tiver doi, verifica o prefixo do provedor local, se sim, fazer o registro no CrossRef, caso contrario ignorar
+
+v5.1-pr(Press-Release)
+Ajustado o link na caixa de servi�os do artigo.
+
+v5.0-pr(Press-Release)
+Realizado altera��o nas classes de transforma��o para php5(Notifica��es do php para essa vers�o deve ser suprimidos)
+#215 corre��o de apresenta��o da licen�a CC
+
+v4.48
+�ltima vers�o para php 4.3.11
+
+v4.47
+#212 apresenta��o de DOI em alguns artigos ex-provisional
+
+v4.46
+Melhorias nos Web Services, a fim de contemplar coleta seletiva de
+novos issues de revistas espec�ficas.
+#208 task: Alterado, no sum�rio eletr�nico de Provisional Article, 
+o link "text in english" por "abstract in english".
+
+v4.45
+Anulado a melhoria #191 bot�es de navega��o para publica��o adiantada,
+pois desajustou o desenho de varias p�ginas dependendo do Browser utilizado
+
+v4.44
+#191 enhancement - bot�es de navega��o para publica��o adiantada
+#182 bug :reopen, corrigindo um bug no processamento de crossref com
+controle de verba; gera��o da lista de PID.
+
+v4.43
+#201 bug: a lista de press releases  n�o estava aparecendo completa na 
+p�gina do t�tulo
+
+

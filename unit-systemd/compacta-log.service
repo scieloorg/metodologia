@@ -1,0 +1,11 @@
+[Unit]
+Description=Compactacao logs Apache
+
+[Service]
+TimeoutStartSec=0
+Type=simple
+
+ExecStart=/dados/compacta_log.sh
+
+[Install]
+WantedBy=multi-user.target
