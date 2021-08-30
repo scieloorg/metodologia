@@ -29,9 +29,9 @@ docker run --name some-scielo \
 	   --env PASSWD_FTP=teste 
 	   --env USER_PASS=scielo 
 	   --env GIT_BRANCH_NAME=scielo_scl 
-	   -p 80:8080 
+	   -p 80:80 
 	   -p 2222:2222 
-	   -d scieloorg/methodology
+	   -d infrascielo/classic-site
 ```
 
 Environment Variables
@@ -81,4 +81,4 @@ passwd: all authentication tokens updated successfully.
 
 Issues:
 ========
-if you have any problem and/or suggestions please let's us know. Contact us through [Bitbucket Issues](https://bitbucket.org/infra-scielo/metodologia/issues). Contributions are always welcome!
+if you have any problem and/or suggestions please let's us know. Contact us through [Github Issues](https://github.com/scieloorg/metodologia/issues). Contributions are always welcome!
