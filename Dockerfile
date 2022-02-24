@@ -74,6 +74,7 @@ COPY conf/vhosts.conf.template /etc/httpd/conf.d/vhosts/vhosts.conf
 COPY conf/virtual_host.conf.template /etc/httpd/conf.d/vhosts/virtual_host.conf 
 COPY scripts/compacta_log.sh.template /scripts/compacta_log.sh 
 COPY conf/supervisord.conf.template /etc/supervisord.conf
+COPY conf/php.ini /etc/php.ini
 
 ## Suppress error message 'Could not load host key: ...'
 RUN /usr/bin/ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -C '' -N ''
