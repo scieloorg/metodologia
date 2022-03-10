@@ -1,4 +1,4 @@
-FROM centos:7
+FROM rockylinux:8.5
 MAINTAINER Infrastructure SciELO <infra@scielo.org>
 
 ENV INSTANCE_NAME scielo_br
@@ -16,10 +16,11 @@ RUN yum -y update && \
     yum install -y wget gcc libxml2-devel openssl openssl-devel openssl-libs curl libcurl-devel libjpeg-turbo-devel libpng-devel freetype-devel libxslt libxslt-devel expat-devel patch wget glibc.i686 zlib-devel curl-devel perl bzip2-devel.x86_64 openssh-server.x86_64 openssh-clients ftp rsync zip unzip glibc.i686 && \
     yum clean all
 
-RUN yum install -y openssl098e-0.9.8e-20.el6.centos.1 autoconf automake && \
+RUN yum install -y autoconf automake && \
     yum clean all
 
-RUN yum install -y epel-release libmcrypt-devel
+RUN yum install -y epel-release && \
+    yum install -y libmcrypt-devel
 
 # Downloading httpd 
 RUN wget -O /usr/src/httpd-2.2.34.tar.gz  https://archive.apache.org/dist/httpd/httpd-2.2.34.tar.gz && \
