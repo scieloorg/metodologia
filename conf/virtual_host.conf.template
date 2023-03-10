@@ -1,4 +1,4 @@
-<VirtualHost *:80>
+<VirtualHost *:8080>
     ServerName SITE_NAME
     Alias /pdf/ /var/www/scielo/bases/pdf/
     Alias /img/fbpe/ /var/www/scielo/htdocs/img/revistas/
